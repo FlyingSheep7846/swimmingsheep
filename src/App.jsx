@@ -1,7 +1,7 @@
 import Header from "./Header"
 import Profile from "./Profile.jsx";
 import Footer from "./Footer"
-import ProfileCard from "./ProfileCard"
+import Links from "./Links.jsx";
 import PDFViewer from "./PDFViewer";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     return(
         <>
             <Profile/>
-
+            {/* <Links/> */}
             <PDFViewer/>
 
             <Footer/>
