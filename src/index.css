@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Helvetica';
+  src: url('assets/misc/Helvetica.ttf') format('truetype');
+}
+
 .card{
   padding-top: 200px;
   margin: 0 auto;
@@ -20,3 +25,20 @@
 .footer{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.header-link{
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s, text-decoration 0.3s;
+}
+
+.header-link:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+h1{
+  font-family: 'Helvetica';
+}
+
+

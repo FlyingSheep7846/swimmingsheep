@@ -1,20 +1,24 @@
 import React from 'react';
-import profileImg from './assets/profileimg.jpg'
-import profileImg2 from './assets/1696462724208.jpg'
+import Links from './Links';
+import profileImg2 from '../assets/images/1696462724208.jpg'
 
 function Profile(){
 
-
     const styles = {
+        overall :{
+            height: '35vh',
+            
+        },
+
         container: {
             display: 'flex',
             flexDirection: 'row',
             justifyContent: 'center',
             alignItems: 'center',
-            height: '40vh',
             width: 'auto',
             maxWidth: '450px',
             margin: '0 auto',
+            paddingBottom : '10px',
             fontFamily: `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sansSerif`
         },
 
@@ -48,29 +52,29 @@ function Profile(){
     }
 
     return(
+        <div style= {styles.overall}>
+            <div style={styles.container}>
 
-        <div style={styles.container}>
-
-            {/* Left Side Image */}
-            <div style={styles.imageContainer}>
-                <img style={styles.image} src={profileImg2}></img>
-            </div>
-
-            {/* Right Side Boxes */}
-            <div style={styles.textContainer}>
-                
-                <div style={styles.headerBox}>
-                    <h1 style={{margin:0}}>Kevin Bai</h1>
-                </div>
-                    <p style={{margin:0}}>Software Engineering Student</p>
-                <div style={styles.textBox}>
-
+                {/* Left Side Image */}
+                <div style={styles.imageContainer}>
+                    <img style={styles.image} src={profileImg2}></img>
                 </div>
 
+                {/* Right Side Boxes */}
+                <div style={styles.textContainer}>
+                    
+                    <div style={styles.headerBox}>
+                        <h1 style={{margin:0}}>Kevin Bai</h1>
+                    </div>
+                        <p style={{margin:0}}>Software Engineering Student</p>
+                    <div style={styles.textBox}>
+
+                    </div>
+                </div>
             </div>
 
+            <Links/>
         </div>
-
     );
 }
 

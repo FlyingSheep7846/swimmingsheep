@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from './assets/Resume - Fall 2024-1.pdf'
+import resume from '../assets/misc/resume.pdf';
 
 const PDFViewer = () => {
 
