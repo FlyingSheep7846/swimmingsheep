@@ -36,6 +36,7 @@ function Header(){
             <nav>
                 <ul style={styles.links}>
                     <li style={styles.link}><Link className="header-link" to="/">Home</Link></li>
+                    <li style={styles.link}><Link className="header-link" to="/projects">Projects</Link></li>
                     <li style={styles.link}><Link className="header-link" to="/about">About Me</Link></li>
                     <li style={styles.link}><Link className="header-link" to="/contact">Contact</Link></li>
                 </ul>

@@ -6,14 +6,27 @@ import Footer from "../components/Footer";
 function Home(){
 
     return (
-        <>
-            <Profile/>
+        <div style={{
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            justifyContent: 'start',
+            minHeight: '100vh',
+            gap: '20px', 
+            padding: '20px', 
+        }}>
 
-            <PDFViewer/>
+            <div>
+                <Profile/>
+            </div>
+            
+            <div>
+                <PDFViewer/>
+            </div>
 
             <Footer/>
         
-        </>
+        </div>
 
     )
 

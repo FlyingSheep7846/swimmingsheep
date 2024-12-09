@@ -1,6 +1,11 @@
 @font-face {
   font-family: 'Helvetica';
-  src: url('assets/misc/Helvetica.ttf') format('truetype');
+  src: url('assets\misc\HelveticaNeueMedium.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'HelveticaLight';
+  src: url('assets\misc\HelveticaNeueLight.otf') format('truetype');
 }
 
 .card{
@@ -39,6 +44,14 @@
 
 h1{
   font-family: 'Helvetica';
+}
+
+h2{
+  font-family: 'Helvetica';
+}
+
+p{
+  font-family: 'HelveticaLight';
 }
 
 

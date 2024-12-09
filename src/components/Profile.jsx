@@ -7,7 +7,6 @@ function Profile(){
     const styles = {
         overall :{
             height: '35vh',
-            
         },
 
         container: {
@@ -16,7 +15,7 @@ function Profile(){
             justifyContent: 'center',
             alignItems: 'center',
             width: 'auto',
-            maxWidth: '450px',
+            maxWidth: '500px',
             margin: '0 auto',
             paddingBottom : '10px',
             fontFamily: `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sansSerif`
@@ -24,25 +23,28 @@ function Profile(){
 
         textContainer: {
             flex: 1,
+            padding: '0px 10px',
             display: 'flex',
             flexDirection: 'column',
-            justifyContent: 'center'
+            justifyContent: 'center',
+            fontSize: 'x-large',
         },
 
         imageContainer: {
             flex: 1,
+            padding: '0px 10px',
         },
 
         image: {
             width: '100%',
             height: 'auto',
-            maxWidth: '200px',
+            maxWidth: '240px',
             borderRadius: '50%'
         },
 
         headerBox: {
             flex: 2,
-            marginBottom: '5px'
+            textAlign : 'bottom',
         },
 
         textBox: {
