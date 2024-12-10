@@ -1,0 +1,19 @@
+.page-button{
+    color: black;
+    margin: 0px 5px;
+    padding: 10px 30px;
+    font-size: 30px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    border: solid 2px black;
+}
+
+.page-button:hover{
+    color:black;
+    background-color: black;
+    color: white;
+    
+
+}

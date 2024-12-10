@@ -6,7 +6,11 @@ function Profile(){
 
     const styles = {
         overall :{
-            height: '35vh',
+            height: '40vh',
+            width: '60vw',
+            maxHeight: '100%',
+            margin: 'auto auto',
+            overflow: 'hidden'
         },
 
         container: {
@@ -14,8 +18,10 @@ function Profile(){
             flexDirection: 'row',
             justifyContent: 'center',
             alignItems: 'center',
-            width: 'auto',
-            maxWidth: '500px',
+            height: '30vh',
+            maxHeight: '100%',
+            width: '30vw',
+            maxWidth: '100%',
             margin: '0 auto',
             paddingBottom : '10px',
             fontFamily: `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sansSerif`
@@ -23,7 +29,6 @@ function Profile(){
 
         textContainer: {
             flex: 1,
-            padding: '0px 10px',
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'center',
@@ -32,23 +37,32 @@ function Profile(){
 
         imageContainer: {
             flex: 1,
-            padding: '0px 10px',
+            display: 'flex',
+            alignItems: 'right',
+            justifyContent: 'center',
         },
 
         image: {
             width: '100%',
             height: 'auto',
-            maxWidth: '240px',
+            maxWidth: '13vw',
             borderRadius: '50%'
         },
 
         headerBox: {
             flex: 2,
+            fontSize: '3vh',
             textAlign : 'bottom',
         },
 
         textBox: {
-            flex: 1
+            flex: 1,
+            fontSize: '3vh'
+        },
+
+        links: {
+            height: '3vh',
+            maxHeight: '100%',
         }
 
     }
@@ -68,14 +82,17 @@ function Profile(){
                     <div style={styles.headerBox}>
                         <h1 style={{margin:0}}>Kevin Bai</h1>
                     </div>
-                        <p style={{margin:0}}>Software Engineering Student</p>
+                        
                     <div style={styles.textBox}>
-
+                        <p style={{margin:0}}>Software Engineering Student</p>
                     </div>
                 </div>
             </div>
 
-            <Links/>
+            <div style={styles.links}>
+                <Links/>
+            </div>
+            
         </div>
     );
 }

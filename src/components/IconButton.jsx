@@ -1,6 +1,7 @@
 import React from "react";
 
 const styles = {
+    height : "100%",
     backgroundColor : "transparent",
     border : "none",
     cursor : "pointer",
@@ -8,8 +9,8 @@ const styles = {
 };
 
 const imageStyles = {
-    width : "50px",
-    height : "auto",
+    height : "100%",
+    width: 'auto',
 };
 
 const IconButton = ({imageSrc, altText, link}) => {

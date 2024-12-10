@@ -6,7 +6,7 @@ import Skill from "../components/Skill.jsx";
 function About(){
 
     return (
-        <>
+        <div style={{paddingBottom: '20px'}}>
             <div className="profile">
                 
                 <div className="name">
@@ -44,7 +44,7 @@ function About(){
             </div>
             
         
-        </>
+        </div>
 
     )
 

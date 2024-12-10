@@ -7,10 +7,16 @@ import github from '../assets/icons/github.png';
 function Links(){
 
     const style = {
+        height: '6vh',
+        margin: '0 auto',
+
+
         display: 'flex',
         margin: '0 auto',
+        gap: '2px',
         flexDirection: 'row',
         justifyContent: 'center',
+        alignItems: 'center'
     }
 
     return(
