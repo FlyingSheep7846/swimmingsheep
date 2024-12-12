@@ -10,9 +10,7 @@ function Links(){
         height: '6vh',
         margin: '0 auto',
 
-
         display: 'flex',
-        margin: '0 auto',
         gap: '2px',
         flexDirection: 'row',
         justifyContent: 'center',

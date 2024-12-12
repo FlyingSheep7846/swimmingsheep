@@ -7,7 +7,7 @@ const PDFViewer = () => {
 return (
     <>
     <div style={{
-        height: '100vh',
+        height: '80vh',
         width: '60vw',
         maxWidth: '100%', // Prevents exceeding the screen width
         maxHeight: '100%', // Prevents exceeding the screen height

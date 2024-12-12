@@ -19,13 +19,24 @@ function Header(){
         },
 
         link : {
-            margin : '0 0.5rem',
-            fontFamily: 'Helvetica',
-            textDecoration : 'none',
-            color : 'white',
+            margin: '0 0.5rem',
+            textDecoration: 'none',
+            display: 'inline',
+            color: 'black',
+            background: 'none',
+            border: 'none',
+            fontSize: 'medium',
+            padding: '0.5rem 1rem',
+            cursor: 'pointer',
+            transition: 'all 0.3s ease',
+            
         },
-
+            
     }
+
+    const scrollToBottom = () => {
+        window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+      };
 
     return(
     
@@ -38,7 +49,9 @@ function Header(){
                     <li style={styles.link}><Link className="header-link" to="/">Home</Link></li>
                     <li style={styles.link}><Link className="header-link" to="/projects">Projects</Link></li>
                     <li style={styles.link}><Link className="header-link" to="/about">About Me</Link></li>
-                    <li style={styles.link}><Link className="header-link" to="/contact">Contact</Link></li>
+                    <li><button onClick={scrollToBottom} 
+                        style={styles.link}
+                    >Contact</button></li>
                 </ul>
             </nav>
 

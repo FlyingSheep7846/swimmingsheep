@@ -12,13 +12,12 @@ function Home(){
             flexDirection: 'column',
             alignItems: 'center',
             justifyContent: 'start',
-            minHeight: '100vh',
             gap: '20px', 
-            padding: '40px 0px', 
+            padding: '25px 0px', 
         }}>
 
             <div style={{
-                flex:1,
+                flex:2,
                 overflow: 'hidden',
                 width: '100%',
                 height: '100%',
@@ -30,8 +29,8 @@ function Home(){
                 flex: 1,
                 paddingBottom: '20px',
             }}>
-                <PageButton text={"See Projects"} altText={"what"} link={"See Projects"}/>
-                <PageButton text={"Contact Me"} altText={"what"} link={"Contact Me"}/>
+                <PageButton text={"See Projects"} altText={"Projects"} link={"#/projects"}/>
+                {/* <PageButton text={"Contact Me"} altText={"what"} link={"Contact Me"}/> */}
             </div>
 
             <div style={{

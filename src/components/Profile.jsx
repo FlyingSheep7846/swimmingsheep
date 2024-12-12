@@ -6,62 +6,73 @@ function Profile(){
 
     const styles = {
         overall :{
-            height: '40vh',
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'flex-end',
+            alignItems: 'center',
+            gap: '2vh',
+
+            height: '30vh',
             width: '60vw',
             maxHeight: '100%',
             margin: 'auto auto',
-            overflow: 'hidden'
+            overflow: 'hidden',
+            paddingBottom: '2vh',
         },
 
         container: {
+            flex: 2,
             display: 'flex',
             flexDirection: 'row',
+            gap: '20px',
             justifyContent: 'center',
             alignItems: 'center',
-            height: '30vh',
-            maxHeight: '100%',
-            width: '30vw',
-            maxWidth: '100%',
-            margin: '0 auto',
-            paddingBottom : '10px',
+            height: '20vh',
             fontFamily: `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sansSerif`
         },
 
         textContainer: {
             flex: 1,
+            height: '20vh',
+            width: '20vw',
             display: 'flex',
             flexDirection: 'column',
-            justifyContent: 'center',
-            fontSize: 'x-large',
+            justifyContent: 'left',
+            fontSize: 'calc(1vw + 1.5vh)',
         },
 
         imageContainer: {
             flex: 1,
+            height: '20vh',
+            width: '20vw',
             display: 'flex',
-            alignItems: 'right',
-            justifyContent: 'center',
+            alignItems: 'center',
+            justifyContent: 'right',
         },
 
         image: {
-            width: '100%',
-            height: 'auto',
-            maxWidth: '13vw',
+            maxHeight: '100%',
+            maxWidth: '100%',
+            objectFit: 'contain',
             borderRadius: '50%'
         },
 
         headerBox: {
-            flex: 2,
-            fontSize: '3vh',
-            textAlign : 'bottom',
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'flex-end',
+            flex: 1,
+            textAlign : 'left',
+            
         },
 
         textBox: {
             flex: 1,
-            fontSize: '3vh'
         },
 
         links: {
-            height: '3vh',
+            flex: 1,
+            height: '1vh',
             maxHeight: '100%',
         }
 
