@@ -43,7 +43,17 @@ function Header(){
 
         <header style={styles.navbar}>
 
-            <h1>Kevin Bai</h1>
+            <div style={{
+                display: 'flex',
+                flexDirection: 'column',
+            }}>
+                <h1 style={{marginBottom: 0}}>Kevin Bai</h1>
+                <hr style={{margin: 0,
+                            width: '60%',
+                }}></hr>
+            </div>
+            
+            
             <nav>
                 <ul style={styles.links}>
                     <li style={styles.link}><Link className="header-link" to="/">Home</Link></li>

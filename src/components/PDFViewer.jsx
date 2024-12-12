@@ -12,9 +12,12 @@ return (
         maxWidth: '100%', // Prevents exceeding the screen width
         maxHeight: '100%', // Prevents exceeding the screen height
         margin: 'auto auto',
-        overflow: 'hidden',}}>
+        overflow: 'hidden',
+        border: 'solid 2px black'}}>
         
-        <iframe src={resume} style={{width: '100%', height: '100%',}} />
+        <iframe src={resume} style={{
+            width: '100%', 
+            height: '100%',}} />
     </div>
 
     <center style={{

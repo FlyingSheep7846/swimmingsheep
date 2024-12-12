@@ -12,7 +12,7 @@ function Home(){
             flexDirection: 'column',
             alignItems: 'center',
             justifyContent: 'start',
-            gap: '20px', 
+            gap: '10px', 
             padding: '25px 0px', 
         }}>
 

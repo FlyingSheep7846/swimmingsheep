@@ -7,7 +7,7 @@ const styles = {
         bottom: 0,
         left: 0,
         width: '100vw',
-        height: '20vh',
+        height: '25vh',
         color: 'white',
         backgroundColor : 'black',
         margin: 0,
@@ -15,6 +15,8 @@ const styles = {
 
     contactInfo : {
         lineHeight: '1.6rem',
+        margin: '8px',
+        color: 'white',
     }
 }
 
@@ -24,10 +26,11 @@ function Footer(){
         <footer style={styles.footer}>
             <center>
             
-            <h3 style={styles.contactInfo}>Contact Me:<br></br>(613) 265-1862 <br></br>
-                <a href="mailto:kevinycbai@gmail.com">kevinycbai@gmail.com</a></h3>
+            <h2 style={{marginBottom: '0px'}}>Contact Me:</h2>
+            <h3 style={styles.contactInfo}>(613) 265-1862 <br></br>
+                <a style={{color: 'white'}} href="mailto:kevinycbai@gmail.com">kevinycbai@gmail.com</a></h3>
 
-            <h3>&copy; {new Date().getFullYear()} SwimmingSheep</h3>
+            <h4>&copy; {new Date().getFullYear()} SwimmingSheep</h4>
             </center>
         </footer>
     );
