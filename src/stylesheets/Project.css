@@ -6,7 +6,6 @@
 .projectBox{
     display: flex;
     flex-direction: column;
-    gap: 5px;
 
     border: solid 2px black;
     width: 60%;
@@ -20,7 +19,8 @@
 }
 
 .text{
-    margin: 0;
+    margin: 5px 0px;
+    font-size: large;
 }
 
 .lineSeparator{
@@ -30,6 +30,7 @@
 
 h2{
     font-family: 'HelveticaLight';
+    margin: 3px 0px 10px;
 }
 
 .image {
@@ -56,4 +57,33 @@ a:hover {
     gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     place-items: center;
+}
+
+.category-filters {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+    padding: 10px 0px; 
+}
+
+.category-filters button{
+    border-radius: 10px;
+    color: #000;
+    background-color: #fff;
+    padding: 10px;
+    font-family: 'HelveticaLight';
+    font-size: large;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border: solid 1px black;
+}
+
+.category-filters button.active{
+    color: #fff;
+    background-color: #000;
+}
+
+.category-filters button:not(.active):hover{
+    background-color: #ddd;
 }

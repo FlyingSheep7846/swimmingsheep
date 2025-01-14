@@ -1,5 +1,6 @@
 import React from 'react';
-import resume from '../assets/misc/resume.pdf';
+import resumeGeneral from '../assets/misc/resume_general.pdf';
+import resumeGamedev from '../assets/misc/resume_gamedev.pdf';
 import "../stylesheets/InteractiveButton.css";
 
 const PDFViewer = () => {
@@ -15,7 +16,7 @@ return (
         overflow: 'hidden',
         border: 'solid 2px black'}}>
         
-        <iframe src={resume} style={{
+        <iframe src={resumeGamedev} style={{
             width: '100%', 
             height: '100%',}} />
     </div>
@@ -25,7 +26,7 @@ return (
         padding: '10px',
     }}>
         <a className='page-button'
-            href={resume}
+            href={resumeGamedev}
             download="KEVINBAI_RESUME.pdf"
         >
             Download Resume

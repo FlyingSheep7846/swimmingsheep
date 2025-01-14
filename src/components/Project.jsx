@@ -6,9 +6,9 @@ function Project({name, images, link, linkName, description, tools}){
         <div className="projectBox">
 
             <h1 className="title">{name}</h1>
-            <h2 className="text">Created with: {tools}</h2>
+            <h2><strong>Tools used:</strong> {tools}</h2>
         
-            <p>{description}</p>
+            <p className="text">{description}</p>
 
             <div className="imagesGrid">
                 {images.map((image,index) => (
