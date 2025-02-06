@@ -9,6 +9,8 @@ import jeffGame from "../assets/images/projects/jeff_game.png";
 import jeffOpening from "../assets/images/projects/jeff_opening.png";
 import nepguinGame from "../assets/images/projects/nepguin_game.png";
 import nepguinOpening from "../assets/images/projects/nepguin_opening.png";
+import martyHome from "../assets/images/projects/marty_home.jpg";
+import martyGame from  "../assets/images/projects/marty_game.jpg";
 
 
 export const projects = [
@@ -46,6 +48,17 @@ export const projects = [
              " Unity frameworks such as Cinemachine, UI and URP to create custom camera/lighting effects and cohesive, user-friendly UI, .",
         link: "https://flyingsheep22.itch.io/last-call",
         linkName: "Itch.io Page",
+
+    },
+
+    {
+        name: "Marteler la Martlet",
+        category: "App Development",
+        tools: "Unity, C#, Unity UI",
+        images: [martyHome, martyGame],
+        description: "Idle clicker-game inspired by McGill's beloved mascot, developed in 24 hours as part McHacks 12. Winner of the Chaotic Evil Hack Prize.",
+        link: "https://devpost.com/software/marteler-le-martelet",
+        linkName: "Devpost Page",
 
     },
 

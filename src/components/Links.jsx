@@ -3,6 +3,7 @@ import IconButton from './IconButton.jsx';
 import linkedin from '../assets/icons/linkedin.png';
 import devpost from '../assets/icons/devpost.png';
 import github from '../assets/icons/github.png';
+import itch from '../assets/icons/itch.png';
 
 function Links(){
 
@@ -37,6 +38,12 @@ function Links(){
                 imageSrc={devpost}
                 altText="Devpost"
                 link="https://devpost.com/flyingsheep22"
+            />
+
+            <IconButton
+                imageSrc={itch}
+                altText="Itch.io"
+                link="https://flyingsheep22.itch.io/"
             />
 
         </div>
