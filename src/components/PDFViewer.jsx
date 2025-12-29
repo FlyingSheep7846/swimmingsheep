@@ -3,7 +3,7 @@ import resumeGeneral from '../assets/misc/resume_general.pdf';
 import resumeGamedev from '../assets/misc/resume_gamedev.pdf';
 
 import resumeGeneralUpdated from '../assets/misc/resume_general_updated.pdf';
-import resumeGamedevUpdated from '../assets/misc/resume_gamedev2.pdf';
+import resumeGamedevUpdated from '../assets/misc/resume_dec2025.pdf';
 import "../stylesheets/InteractiveButton.css";
 
 const PDFViewer = () => {

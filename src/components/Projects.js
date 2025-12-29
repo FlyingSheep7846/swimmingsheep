@@ -1,6 +1,12 @@
 import lastcall from "../assets/images/projects/LastCall.png";
 import site from "../assets/images/projects/site_home.png";
 import siteAbout from "../assets/images/projects/site_aboutme.png";
+import pdd1 from "../assets/images/projects/pdd1.png";
+import pdd2 from "../assets/images/projects/pdd2.png";
+import underfished1 from "../assets/images/projects/underfished1.png"
+import underfished2 from "../assets/images/projects/underfished2.png"
+import pokeshin1 from "../assets/images/projects/pokeshin1.png"
+import pokeshin2 from "../assets/images/projects/pokeshin2.png"
 import duck from "../assets/images/projects/proDUCKtive.jpg";
 import duckView from "../assets/images/projects/proDUCKtive_view.png";
 import shelly from "../assets/images/projects/shelly_screenshot.png";
@@ -11,7 +17,6 @@ import nepguinGame from "../assets/images/projects/nepguin_game.png";
 import nepguinOpening from "../assets/images/projects/nepguin_opening.png";
 import martyHome from "../assets/images/projects/marty_home.jpg";
 import martyGame from  "../assets/images/projects/marty_game.jpg";
-
 
 export const projects = [
 
@@ -25,6 +30,42 @@ export const projects = [
         link: "https://github.com/FlyingSheep22/swimmingsheep",
         linkName: "Github Repository",
 
+    },
+
+    {
+        name: "Pas de Deux: The Chaos Ballet",
+        category: "Game Development",
+        tools: "Unity, C#",
+        images: [pdd1, pdd2],
+        description: "Co-op Comedy Ballerina Game submitted to the 2025 Ubisoft Game Lab Competition on behalf of McGill University, " +
+        "<b>winner of the Jury's Award</b>. Developed across 10 weeks in a team of eight (four programmers, three artists and one designer). Acted as " +
+        "the lead UI/UX developer and designer, as well as general gameplay prorammer. Was responsible " + 
+        "for developing all menus, in-game HUD and user experience feedback, as well as camera and object interactions systems.",
+        link: "https://typh0n4.itch.io/pas-de-deux-the-chaos-ballet",
+        linkName: "Itch.io Page",
+    },
+
+    {
+        name: "PokéShin",
+        category: "Game Development",
+        tools: "Unity, C#",
+        images: [pokeshin1, pokeshin2],
+        description: "Visual novel puzzle game developed for RELG 368 (Japanese Religions in Popular Culture) class final project. " +
+        "Fully developed from scratch visual novel and investigation systems, drawing inspiration from games like Ace Attorney. " + 
+        "Created an MVVM-powered backend UI system that is very reusable and flexible.",
+        link: "https://flyingsheep22.itch.io/pokeshin",
+        linkName: "Itch.io Page",
+    },
+
+    {
+        name: "Underfished",
+        category: "Game Development",
+        tools: "Unity, C#",
+        images: [underfished1, underfished2],
+        description: "Horror survival fishing game developed with a team of four in under 36 hours for McGill CodeJam 15, <b>winner of the Best Game Prize.</b> " +
+        "Acted as lead programmer for the project, responsible for core fishing gameplay, UI, and cutscene sequencing.",
+        link: "https://flyingsheep22.itch.io/pokeshin",
+        linkName: "Itch.io Page",
     },
 
     {

@@ -8,7 +8,9 @@ function Project({name, images, link, linkName, description, tools}){
             <h1 className="title">{name}</h1>
             <h2><strong>Tools used:</strong> {tools}</h2>
         
-            <p className="text">{description}</p>
+            <p className="text"
+                dangerouslySetInnerHTML={{__html: description}}
+            />
 
             <div className="imagesGrid">
                 {images.map((image,index) => (

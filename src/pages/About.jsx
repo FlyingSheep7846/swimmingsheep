@@ -22,23 +22,24 @@ function About(){
             <div className={styles.infoBox}>
                 <div className={styles.infoParagraph}>
                     <p>
-                        I'm a second year student in Software Engineering Co-op (B.Eng) at McGill University. My main focuses are game programming and web/app development, but I am always open and passionate to exploring new technologies in software.
+                        I'm a second year student in Software Engineering Co-op (B.Eng) at McGill University. I am a passionate
+                        game developer specializing in UI Programming and Design, as well as Gameplay Programming.
                     </p>
                     <p>
-                        In my spare time, I love to draw, attend concerts, and of course make games :)
+                        In my spare time, I love to draw, attend concerts, and both play and make games :)
                     </p>
                 </div>
                 <div className={styles.skillsOverview}>
-                    <Skill type={"Programming Languages"}
-                        list={"Java, C#, C++, HTML, CSS, JavaScript, Python, C"}
+                    <Skill type={"Programming Languages and Tools"}
+                        list={"C++, Java, C#, Python, C, Git, HTML, CSS, JavaScript"}
                     />
 
-                    <Skill type={"Frameworks and Libaries"}
-                        list={"Unity, SpringBoot, PostgreSQL, React, NodeJS"}
+                    <Skill type={"Engines and Frameworks"}
+                        list={"Unity, Unreal Engine, Roblox Studio, SpringBoot, PostgreSQL, React, NodeJS"}
                     />
 
-                    <Skill type={"Dev Tools and Environments"}
-                        list={"Git/GitHub/Gitea, Jira, IceScrum, Visual Studio Code, Eclipse, Jetbrains"}
+                    <Skill type={"Interests"}
+                        list={"UI/UX Design, Gameplay Programming, Graphic Design"}
                     />                    
                 </div>
             </div>
