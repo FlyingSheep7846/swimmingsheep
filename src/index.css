@@ -8,12 +8,12 @@ body, html {
 
 @font-face {
   font-family: 'Helvetica';
-  src: url('assets\misc\HelveticaNeueMedium.otf') format('truetype');
+  src: url('/fonts/HelveticaNeueMedium.otf') format('truetype');
 }
 
 @font-face {
   font-family: 'HelveticaLight';
-  src: url('assets\misc\HelveticaNeueLight.otf') format('truetype');
+  src: url('/fonts/HelveticaNeueLight.otf') format('truetype');
 }
 
 

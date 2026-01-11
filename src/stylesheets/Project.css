@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'HelveticaLight';
-    src: url('assets\misc\HelveticaNeueLight.otf') format('truetype');
+    src: url('/fonts/HelveticaNeueLight.otf') format('truetype');
   }
 
 .projectBox{
