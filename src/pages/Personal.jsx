@@ -1,0 +1,55 @@
+import React from "react";
+import styles from "../stylesheets/About.module.css";
+import profileImage from "../assets/images/IMG_3868.jpg";
+import Skill from "../components/Skill.jsx";
+
+function Personal(){
+
+    return (
+        <div style={{paddingBottom: '20px'}}>
+
+            {/* Top */}
+            <div className={styles.profile}>
+                
+                <div className={styles.name}>
+                    <h1>Hey &#128075;<br></br>I'm Kevin</h1>
+                </div>
+                
+                <div className={styles.imageContainer}>
+                    <img className={styles.image} src={profileImage}></img>
+                </div>
+                
+            </div>
+
+            {/* Bottom */}
+            <div className={styles.infoBox}>
+                <div className={styles.infoParagraph}>
+                    <p>
+                        I'm a second year student in Software Engineering Co-op (B.Eng) at McGill University. I am a passionate
+                        game developer specializing in UI Programming and Design, as well as Gameplay Programming.
+
+                    </p>
+                </div>
+                <div className={styles.skillsOverview}>
+                    <Skill type={"Programming Languages and Tools"}
+                        list={"C++, Java, C#, Python, C, Git, HTML, CSS, JavaScript"}
+                    />
+
+                    <Skill type={"Engines and Frameworks"}
+                        list={"Unity, Unreal Engine, Roblox Studio, SpringBoot, PostgreSQL, React, NodeJS"}
+                    />
+
+                    <Skill type={"Interests"}
+                        list={"UI/UX Design, Gameplay Programming, Graphic Design"}
+                    />                    
+                </div>
+            </div>
+            
+        
+        </div>
+
+    )
+
+}
+
+export default Personal
