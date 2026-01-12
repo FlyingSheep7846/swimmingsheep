@@ -1,9 +1,9 @@
 import IconButton from './IconButton.jsx';
 
-import linkedin from '../assets/icons/linkedin.png';
-import devpost from '../assets/icons/devpost.png';
-import github from '../assets/icons/github.png';
-import itch from '../assets/icons/itch.png';
+const linkedin = '/icons/linkedin.png';
+const devpost = '/icons/devpost.png';
+const github = '/icons/github.png';
+const itch = '/icons/itch.png';
 
 function Links(){
 

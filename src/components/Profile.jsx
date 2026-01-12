@@ -1,6 +1,6 @@
 import React from 'react';
 import Links from './Links';
-import profileImg2 from '../assets/images/1696462724208.jpg'
+const profileImg2 = '/images/1696462724208.jpg'
 
 function Profile(){
 

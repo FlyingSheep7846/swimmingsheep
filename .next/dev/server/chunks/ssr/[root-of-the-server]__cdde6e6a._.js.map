@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 9, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/stylesheets/About.module.css [ssr] (css module)"],"sourcesContent":["__turbopack_context__.v({\n  \"image\": \"About-module__KSvuPq__image\",\n  \"imageContainer\": \"About-module__KSvuPq__imageContainer\",\n  \"infoBox\": \"About-module__KSvuPq__infoBox\",\n  \"infoParagraph\": \"About-module__KSvuPq__infoParagraph\",\n  \"name\": \"About-module__KSvuPq__name\",\n  \"profile\": \"About-module__KSvuPq__profile\",\n  \"skillsOverview\": \"About-module__KSvuPq__skillsOverview\",\n});\n"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA"}},
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/kevin/swimmingsheep/pages/_app.js"],"sourcesContent":["import '../src/stylesheets/InteractiveButton.css'\r\nimport '../src/stylesheets/Project.css'\r\nimport '../src/stylesheets/About.module.css'\r\n\r\nimport '../index.css'\r\n\r\nexport default function MyApp({ Component, pageProps }) {\r\n  return <Component {...pageProps} />\r\n}"],"names":[],"mappings":";;;;;AAEA;;;;;;AAIe,SAAS,MAAM,EAAE,SAAS,EAAE,SAAS,EAAE;IACpD,qBAAO,qKAAC;QAAW,GAAG,SAAS;;;;;;AACjC"}}]
+}

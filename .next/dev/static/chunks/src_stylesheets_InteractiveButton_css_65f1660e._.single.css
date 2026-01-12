@@ -1,0 +1,19 @@
+/* [project]/src/stylesheets/InteractiveButton.css [client] (css) */
+.page-button {
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 10px;
+  margin: 0 5px;
+  padding: 10px 30px;
+  font-size: 30px;
+  text-decoration: none;
+  transition: all .3s;
+  display: inline-block;
+}
+
+.page-button:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/*# sourceMappingURL=src_stylesheets_InteractiveButton_css_65f1660e._.single.css.map*/

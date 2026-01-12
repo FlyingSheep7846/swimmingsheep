@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/kevin/swimmingsheep/pages/api/notion-data.js"],"sourcesContent":["import { Client } from '@notionhq/client';\r\n\r\nexport default async function handler(req, res) {\r\n  const notion = new Client({ auth: process.env.NOTION_TOKEN });\r\n\r\n  try {\r\n    const response = await notion.databases.query({\r\n      database_id: process.env.NOTION_DATABASE_ID,\r\n    });\r\n    res.status(200).json(response.results);\r\n  } catch (error) {\r\n    console.error('Error:', error);\r\n    res.status(500).json({ error: error.message });\r\n  }\r\n}"],"names":[],"mappings":";;;;AAAA;;AAEe,eAAe,QAAQ,GAAG,EAAE,GAAG;IAC5C,MAAM,SAAS,IAAI,sMAAM,CAAC;QAAE,MAAM,QAAQ,GAAG,CAAC,YAAY;IAAC;IAE3D,IAAI;QACF,MAAM,WAAW,MAAM,OAAO,SAAS,CAAC,KAAK,CAAC;YAC5C,aAAa,QAAQ,GAAG,CAAC,kBAAkB;QAC7C;QACA,IAAI,MAAM,CAAC,KAAK,IAAI,CAAC,SAAS,OAAO;IACvC,EAAE,OAAO,OAAO;QACd,QAAQ,KAAK,CAAC,UAAU;QACxB,IAAI,MAAM,CAAC,KAAK,IAAI,CAAC;YAAE,OAAO,MAAM,OAAO;QAAC;IAC9C;AACF"}}]
+}

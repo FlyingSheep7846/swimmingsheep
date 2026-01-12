@@ -1,5 +1,3 @@
-import "../stylesheets/Project.css";
-
 function Project({name, images, link, linkName, description, tools}){
     return (
         <>

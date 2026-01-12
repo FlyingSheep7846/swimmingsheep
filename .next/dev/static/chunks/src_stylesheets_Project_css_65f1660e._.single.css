@@ -1,0 +1,91 @@
+/* [project]/src/stylesheets/Project.css [client] (css) */
+@font-face {
+  font-family: HelveticaLight;
+  src: url("/fonts/HelveticaNeueLight.otf") format("truetype");
+}
+
+.projectBox {
+  border: 2px solid #000;
+  border-radius: 10px;
+  flex-direction: column;
+  width: 60%;
+  height: auto;
+  padding: 20px;
+  display: flex;
+}
+
+.title {
+  margin: 0;
+}
+
+.text {
+  margin: 5px 0;
+  font-size: large;
+}
+
+.lineSeparator {
+  border: 1px solid #000;
+  width: 50%;
+}
+
+h2 {
+  margin: 3px 0 10px;
+  font-family: HelveticaLight;
+}
+
+.image {
+  object-fit: cover;
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.projectBox a {
+  color: #000;
+  font-size: large;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.imagesGrid {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  place-items: center;
+  gap: 1rem;
+  margin: 20px;
+  display: grid;
+}
+
+.category-filters {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  display: flex;
+}
+
+.category-filters button {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: HelveticaLight;
+  font-size: large;
+  transition: background-color .3s, color .3s;
+}
+
+.category-filters button.active {
+  color: #fff;
+  background-color: #000;
+}
+
+.category-filters button:not(.active):hover {
+  background-color: #ddd;
+}
+
+/*# sourceMappingURL=src_stylesheets_Project_css_65f1660e._.single.css.map*/

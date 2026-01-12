@@ -1,0 +1,40 @@
+.wrapper {
+    display: flex;
+    justify-content: center; /* or flex-start, flex-end */
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.albumArt {
+    width: 20vw;
+    max-width: 30vh;
+    height: 20vwpx;
+    max-height: 30vh;
+    border-radius: 50%;
+    object-fit: cover;
+    animation: spin 6s linear infinite;
+}
+
+.title {
+    margin: 10px 0px 2px;
+}
+
+.artist{
+    font-weight: normal;
+    margin-top: 0
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

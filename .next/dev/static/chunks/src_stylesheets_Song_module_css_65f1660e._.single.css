@@ -1,0 +1,43 @@
+/* [project]/src/stylesheets/Song.module.css [client] (css) */
+.Song-module__VjTm6G__wrapper {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
+
+.Song-module__VjTm6G__container {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.Song-module__VjTm6G__albumArt {
+  width: 20vw;
+  max-width: 30vh;
+  height: 20vwpx;
+  object-fit: cover;
+  border-radius: 50%;
+  max-height: 30vh;
+  animation: 6s linear infinite Song-module__VjTm6G__spin;
+}
+
+.Song-module__VjTm6G__title {
+  margin: 10px 0 2px;
+}
+
+.Song-module__VjTm6G__artist {
+  margin-top: 0;
+  font-weight: normal;
+}
+
+@keyframes Song-module__VjTm6G__spin {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*# sourceMappingURL=src_stylesheets_Song_module_css_65f1660e._.single.css.map*/

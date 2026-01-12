@@ -1,0 +1,10 @@
+{
+  "/": "pages/index.js",
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/_error": "pages/_error.js",
+  "/about": "pages/about.js",
+  "/api/notion-data": "pages/api/notion-data.js",
+  "/personal": "pages/personal.js",
+  "/projects": "pages/projects.js"
+}

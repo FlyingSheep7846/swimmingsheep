@@ -1,6 +1,5 @@
 import React from 'react';
-import '../index.css';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 function Header(){
 
@@ -56,9 +55,10 @@ function Header(){
             
             <nav>
                 <ul style={styles.links}>
-                    <li style={styles.link}><Link className="header-link" to="/">Home</Link></li>
-                    <li style={styles.link}><Link className="header-link" to="/projects">Projects</Link></li>
-                    <li style={styles.link}><Link className="header-link" to="/about">About Me</Link></li>
+                    <li style={styles.link}><Link className="header-link" href="/">Home</Link></li>
+                    <li style={styles.link}><Link className="header-link" href="/projects">Projects</Link></li>
+                    <li style={styles.link}><Link className="header-link" href="/about">About Me</Link></li>
+                    {/* <li style={styles.link}><Link className="header-link" href="/personal">Personal</Link></li> */}
                     <li><button onClick={scrollToBottom} 
                         style={styles.link}
                     >Contact</button></li>
