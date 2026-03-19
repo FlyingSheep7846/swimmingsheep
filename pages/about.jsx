@@ -12,7 +12,7 @@ function About(){
                 <div className={styles.profile}>
                     
                     <div className={styles.name}>
-                        <h1>Hey &#128075;<br></br>I'm Kevin</h1>
+                        <h1>Hey &#128075;<br></br>I'm Kevin Ji Pho</h1>
                     </div>
                     
                     <div className={styles.imageContainer}>
