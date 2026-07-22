@@ -1,0 +1,48 @@
+/* [project]/src/components/Header/Header.module.css [client] (css) */
+.Header-module__ldgnoG__header {
+  color: #fff;
+  box-sizing: border-box;
+  background: #212125;
+  width: 100%;
+  min-width: 0;
+}
+
+.Header-module__ldgnoG__nav {
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1.25rem;
+  min-height: 56px;
+  padding: .75rem 1.25rem;
+  display: flex;
+}
+
+.Header-module__ldgnoG__link {
+  color: inherit;
+  font-size: clamp(.95rem, 1.8vw, 1.2rem);
+  font-weight: 400;
+  line-height: 1;
+  text-decoration: none;
+  transition: opacity .15s, font-weight .15s;
+}
+
+.Header-module__ldgnoG__link:hover {
+  opacity: .7;
+}
+
+.Header-module__ldgnoG__active {
+  font-weight: 700;
+}
+
+@media (max-width: 650px) {
+  .Header-module__ldgnoG__nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .8rem 1rem;
+  }
+
+  .Header-module__ldgnoG__link {
+    font-size: .95rem;
+  }
+}
+
+/*# sourceMappingURL=src_components_Header_Header_module_css_0uu1l2n._.single.css.map*/

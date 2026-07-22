@@ -1,0 +1,429 @@
+/* [project]/src/stylesheets/Personal.module.css [client] (css) */
+.Personal-module__Ryk9VG__profile {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: auto;
+  max-width: 80vw;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  display: flex;
+}
+
+.Personal-module__Ryk9VG__name {
+  text-align: right;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(2vh + 2vw);
+}
+
+.Personal-module__Ryk9VG__imageContainer {
+  flex: 1;
+}
+
+.Personal-module__Ryk9VG__image {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 20vw;
+  height: 20vw;
+}
+
+.Personal-module__Ryk9VG__infoBox {
+  justify-content: center;
+  align-items: top;
+  flex-direction: row;
+  gap: 50px;
+  width: auto;
+  max-width: 60%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.Personal-module__Ryk9VG__infoParagraph {
+  text-align: left;
+  flex: 1;
+  max-width: 50%;
+  font-size: 2.5vh;
+  line-height: 3.5vh;
+}
+
+.Personal-module__Ryk9VG__skillsOverview {
+  flex: 1;
+  max-width: 50%;
+  font-size: 2vh;
+}
+
+/* [project]/src/components/Header/Header.module.css [client] (css) */
+.Header-module__ldgnoG__header {
+  color: #fff;
+  box-sizing: border-box;
+  background: #212125;
+  width: 100%;
+  min-width: 0;
+}
+
+.Header-module__ldgnoG__nav {
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1.25rem;
+  min-height: 56px;
+  padding: .75rem 1.25rem;
+  display: flex;
+}
+
+.Header-module__ldgnoG__link {
+  color: inherit;
+  font-size: clamp(.95rem, 1.8vw, 1.2rem);
+  font-weight: 400;
+  line-height: 1;
+  text-decoration: none;
+  transition: opacity .15s, font-weight .15s;
+}
+
+.Header-module__ldgnoG__link:hover {
+  opacity: .7;
+}
+
+.Header-module__ldgnoG__active {
+  font-weight: 700;
+}
+
+@media (max-width: 650px) {
+  .Header-module__ldgnoG__nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .8rem 1rem;
+  }
+
+  .Header-module__ldgnoG__link {
+    font-size: .95rem;
+  }
+}
+
+/* [project]/src/components/Footer/Footer.module.css [client] (css) */
+.Footer-module__Grjkva__footer {
+  box-sizing: border-box;
+  color: #fff;
+  background: #212125;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+}
+
+.Footer-module__Grjkva__heading {
+  margin: 0 0 1rem;
+  font-size: clamp(1.4rem, 2vw, 2rem);
+  font-weight: 600;
+}
+
+.Footer-module__Grjkva__email, .Footer-module__Grjkva__phone {
+  color: inherit;
+  margin: .2rem 0;
+  font-size: clamp(.95rem, 1.2vw, 1.1rem);
+  text-decoration: none;
+}
+
+.Footer-module__Grjkva__email:hover {
+  text-decoration: underline;
+}
+
+.Footer-module__Grjkva__copyright {
+  opacity: .7;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  font-size: .9rem;
+}
+
+/* [project]/src/components/Layout/Layout.module.css [client] (css) */
+.Layout-module__cbqlla__page {
+  background: #d9d9d9;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.Layout-module__cbqlla__site {
+  background: #eee;
+  flex-direction: column;
+  width: calc(100% - 2rem);
+  min-width: 0;
+  max-width: 1100px;
+  min-height: calc(100vh - 2rem);
+  margin: 0 auto;
+  display: flex;
+}
+
+.Layout-module__cbqlla__body, .Layout-module__cbqlla__bodyWithSidebar {
+  box-sizing: border-box;
+  flex: 1;
+  width: 100%;
+  min-width: 0;
+  padding: 1.75rem 2rem 3rem;
+}
+
+.Layout-module__cbqlla__body {
+  display: block;
+}
+
+.Layout-module__cbqlla__bodyWithSidebar {
+  grid-template-columns: 140px minmax(0, 1fr);
+  gap: 2rem;
+  display: grid;
+}
+
+.Layout-module__cbqlla__topStrip {
+  background: #eee;
+  flex-shrink: 0;
+  width: 100%;
+  height: 20px;
+}
+
+.Layout-module__cbqlla__sidebar, .Layout-module__cbqlla__content {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.Layout-module__cbqlla__content {
+  overflow-wrap: break-word;
+  width: 100%;
+}
+
+@media (max-width: 850px) {
+  .Layout-module__cbqlla__page {
+    padding: 0;
+  }
+
+  .Layout-module__cbqlla__site {
+    max-width: none;
+    min-height: 100vh;
+  }
+
+  .Layout-module__cbqlla__body, .Layout-module__cbqlla__bodyWithSidebar {
+    padding: 1.25rem;
+    display: block;
+  }
+
+  .Layout-module__cbqlla__sidebar {
+    margin-bottom: 2rem;
+  }
+}
+
+/* [project]/src/components/SongsCard/SongsCard.module.css [client] (css) */
+.SongsCard-module__X1WVoq__wrapper {
+  flex-direction: column;
+  justify-content: flex-end;
+  min-width: 0;
+  display: flex;
+}
+
+.SongsCard-module__X1WVoq__heading {
+  font-size: 2rem;
+  line-height: .95;
+}
+
+.SongsCard-module__X1WVoq__contentRow {
+  flex-direction: row;
+  align-items: stretch;
+  gap: clamp(.5rem, 1.5vw, 1rem);
+  min-height: 0;
+  margin: 0;
+  display: flex;
+}
+
+.SongsCard-module__X1WVoq__leftColumn {
+  flex-direction: column;
+  flex: 0 0 65%;
+  justify-content: flex-end;
+  min-width: 0;
+  display: flex;
+}
+
+.SongsCard-module__X1WVoq__smallRow {
+  flex-direction: row;
+  gap: clamp(.3rem, .8vw, .6rem);
+  display: flex;
+}
+
+.SongsCard-module__X1WVoq__featuredColumn {
+  align-items: flex-end;
+  width: 100%;
+  min-width: 0;
+  display: flex;
+}
+
+.SongsCard-module__X1WVoq__featuredSong {
+  width: 100%;
+  min-width: 0;
+  color: inherit;
+  flex-direction: column;
+  text-decoration: none;
+  display: flex;
+}
+
+.SongsCard-module__X1WVoq__featuredSong .SongsCard-module__X1WVoq__albumArt {
+  aspect-ratio: 1;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.SongsCard-module__X1WVoq__song {
+  min-width: 0;
+  color: inherit;
+  flex-direction: column;
+  flex: 1 1 0;
+  text-decoration: none;
+  display: flex;
+}
+
+.SongsCard-module__X1WVoq__song .SongsCard-module__X1WVoq__albumArt {
+  aspect-ratio: 1;
+  object-fit: cover;
+  width: 100%;
+}
+
+.SongsCard-module__X1WVoq__albumArt {
+  display: block;
+}
+
+.SongsCard-module__X1WVoq__songInfo {
+  text-align: center;
+  min-width: 0;
+  margin-top: .25rem;
+}
+
+.SongsCard-module__X1WVoq__songInfo h2 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 0;
+  font-size: clamp(.55rem, 1vw, .8rem);
+  font-weight: 600;
+  line-height: 1.1;
+  overflow: hidden;
+}
+
+.SongsCard-module__X1WVoq__songInfo p {
+  color: var(--text-secondary, #666);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: .15rem 0 0;
+  font-size: clamp(.45rem, .7vw, .65rem);
+  line-height: 1.05;
+  overflow: hidden;
+}
+
+.SongsCard-module__X1WVoq__featuredSong .SongsCard-module__X1WVoq__songInfo h2 {
+  font-size: clamp(.65rem, 1.3vw, 1rem);
+}
+
+.SongsCard-module__X1WVoq__featuredSong .SongsCard-module__X1WVoq__songInfo p {
+  font-size: clamp(.5rem, .85vw, .75rem);
+}
+
+/* [project]/src/blocks/IntroBlock.module.css [client] (css) */
+.IntroBlock-module__rDYHHa__homeGrid {
+  --left-column: 38%;
+  --column-gap: 2rem;
+  grid-template-columns: minmax(0, var(--left-column))
+    minmax(0, 1fr);
+  column-gap: var(--column-gap);
+  align-items: stretch;
+  width: 100%;
+  display: grid;
+}
+
+.IntroBlock-module__rDYHHa__profile {
+  flex-direction: column;
+  min-width: 0;
+  display: flex;
+}
+
+.IntroBlock-module__rDYHHa__rightColumn {
+  grid-template-rows: max-content minmax(0, 1fr) max-content;
+  row-gap: 1rem;
+  min-width: 0;
+  min-height: 0;
+  display: grid;
+}
+
+.IntroBlock-module__rDYHHa__introduction {
+  min-width: 0;
+}
+
+.IntroBlock-module__rDYHHa__listening {
+  min-width: 0;
+  min-height: 0;
+}
+
+.IntroBlock-module__rDYHHa__listening > * {
+  width: 100%;
+}
+
+.IntroBlock-module__rDYHHa__profileImagePlaceholder {
+  aspect-ratio: 1;
+  background: #ccc;
+  width: 100%;
+}
+
+.IntroBlock-module__rDYHHa__profileText {
+  margin-top: .5rem;
+}
+
+.IntroBlock-module__rDYHHa__nameTitle {
+  margin: 0;
+}
+
+.IntroBlock-module__rDYHHa__nameSubtitle {
+  margin: .15rem 0 0;
+}
+
+.IntroBlock-module__rDYHHa__introductionTitle {
+  margin: 0;
+}
+
+.IntroBlock-module__rDYHHa__introductionDescription {
+  margin: .75rem 0 0;
+}
+
+.IntroBlock-module__rDYHHa__profileImage, .IntroBlock-module__rDYHHa__banner {
+  position: relative;
+  overflow: hidden;
+}
+
+.IntroBlock-module__rDYHHa__profileImage {
+  aspect-ratio: 1;
+  width: 100%;
+}
+
+.IntroBlock-module__rDYHHa__banner {
+  width: 100%;
+  min-height: 0;
+}
+
+.IntroBlock-module__rDYHHa__bannerPlaceholder {
+  background: #ccc;
+  width: 100%;
+  min-height: 0;
+}
+
+@media (max-width: 850px) {
+  .IntroBlock-module__rDYHHa__homeGrid {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+
+  .IntroBlock-module__rDYHHa__rightColumn {
+    grid-template-rows: max-content auto max-content;
+  }
+
+  .IntroBlock-module__rDYHHa__bannerPlaceholder {
+    aspect-ratio: 16 / 5;
+  }
+}
+
+/*# sourceMappingURL=src_0qdr0p7._.css.map*/

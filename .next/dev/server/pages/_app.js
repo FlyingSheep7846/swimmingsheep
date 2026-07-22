@@ -1,4 +1,4 @@
 var R=require("../chunks/ssr/[turbopack]_runtime.js")("server/pages/_app.js")
-R.c("server/chunks/ssr/[root-of-the-server]__cdde6e6a._.js")
-R.m("[project]/pages/_app.js [ssr] (ecmascript)")
-module.exports=R.m("[project]/pages/_app.js [ssr] (ecmascript)").exports
+R.c("server/chunks/ssr/[root-of-the-server]__1a65m51._.js")
+R.m("[project]/src/pages/_app.js [ssr] (ecmascript)")
+module.exports=R.m("[project]/src/pages/_app.js [ssr] (ecmascript)").exports

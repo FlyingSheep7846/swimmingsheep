@@ -1,0 +1,102 @@
+/* [project]/src/blocks/IntroBlock.module.css [client] (css) */
+.IntroBlock-module__rDYHHa__homeGrid {
+  --left-column: 38%;
+  --column-gap: 2rem;
+  grid-template-columns: minmax(0, var(--left-column))
+    minmax(0, 1fr);
+  column-gap: var(--column-gap);
+  align-items: stretch;
+  width: 100%;
+  display: grid;
+}
+
+.IntroBlock-module__rDYHHa__profile {
+  flex-direction: column;
+  min-width: 0;
+  display: flex;
+}
+
+.IntroBlock-module__rDYHHa__rightColumn {
+  grid-template-rows: max-content minmax(0, 1fr) max-content;
+  row-gap: 1rem;
+  min-width: 0;
+  min-height: 0;
+  display: grid;
+}
+
+.IntroBlock-module__rDYHHa__introduction {
+  min-width: 0;
+}
+
+.IntroBlock-module__rDYHHa__listening {
+  min-width: 0;
+  min-height: 0;
+}
+
+.IntroBlock-module__rDYHHa__listening > * {
+  width: 100%;
+}
+
+.IntroBlock-module__rDYHHa__profileImagePlaceholder {
+  aspect-ratio: 1;
+  background: #ccc;
+  width: 100%;
+}
+
+.IntroBlock-module__rDYHHa__profileText {
+  margin-top: .5rem;
+}
+
+.IntroBlock-module__rDYHHa__nameTitle {
+  margin: 0;
+}
+
+.IntroBlock-module__rDYHHa__nameSubtitle {
+  margin: .15rem 0 0;
+}
+
+.IntroBlock-module__rDYHHa__introductionTitle {
+  margin: 0;
+}
+
+.IntroBlock-module__rDYHHa__introductionDescription {
+  margin: .75rem 0 0;
+}
+
+.IntroBlock-module__rDYHHa__profileImage, .IntroBlock-module__rDYHHa__banner {
+  position: relative;
+  overflow: hidden;
+}
+
+.IntroBlock-module__rDYHHa__profileImage {
+  aspect-ratio: 1;
+  width: 100%;
+}
+
+.IntroBlock-module__rDYHHa__banner {
+  width: 100%;
+  min-height: 0;
+}
+
+.IntroBlock-module__rDYHHa__bannerPlaceholder {
+  background: #ccc;
+  width: 100%;
+  min-height: 0;
+}
+
+@media (max-width: 850px) {
+  .IntroBlock-module__rDYHHa__homeGrid {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+
+  .IntroBlock-module__rDYHHa__rightColumn {
+    grid-template-rows: max-content auto max-content;
+  }
+
+  .IntroBlock-module__rDYHHa__bannerPlaceholder {
+    aspect-ratio: 16 / 5;
+  }
+}
+
+/*# sourceMappingURL=src_blocks_IntroBlock_module_css_0uu1l2n._.single.css.map*/

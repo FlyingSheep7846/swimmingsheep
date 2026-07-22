@@ -1,0 +1,53 @@
+.header {
+  width: 100%;
+  min-width: 0;
+
+  background: #212125;
+  color: white;
+
+  box-sizing: border-box;
+}
+
+.nav {
+  min-height: 56px;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1.25rem;
+
+  padding: 0.75rem 1.25rem;
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+
+  font-size: clamp(0.95rem, 1.8vw, 1.2rem);
+  font-weight: 400;
+  line-height: 1;
+
+  transition:
+    opacity 150ms ease,
+    font-weight 150ms ease;
+}
+
+.link:hover {
+  opacity: 0.7;
+}
+
+.active {
+  font-weight: 700;
+}
+
+@media (max-width: 650px) {
+  .nav {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.8rem 1rem;
+  }
+
+  .link {
+    font-size: 0.95rem;
+  }
+}

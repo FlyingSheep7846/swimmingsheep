@@ -1,0 +1,58 @@
+const ProfileImg = '/images/o5jmamjfajdz.png'
+const BannerImg = '/images/1892942565.jpg'
+
+import Image from "next/image";
+import SongsCard from "@/components/SongsCard/SongsCard";
+import styles from "./IntroBlock.module.css";
+
+export default function IntroBlock({ songInfo }) {
+  return (
+    <div className={styles.homeGrid}>
+      <section className={styles.profile}>
+        <div className={styles.profileImage}> 
+          <Image
+            src={ProfileImg}
+            alt="Profile picture"
+            fill
+            style={{ objectFit: "cover" }}
+          />
+        </div>
+
+        <div className={styles.profileText}>
+          <h1 className={styles.nameTitle}>Sheep’s place</h1>
+          <p className={styles.nameSubtitle}>
+            Game Programmer - UI/UX - Artist
+          </p>
+        </div>
+      </section>
+
+      <div className={styles.rightColumn}>
+        <section className={styles.introduction}>
+          <h2 className={styles.introductionTitle}>
+            Welcome to my website
+          </h2>
+
+          <p className={styles.introductionDescription}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </section>
+
+        <div className={styles.banner}>
+          <Image
+            src={BannerImg}
+            alt="Profile picture"
+            fill
+            style={{ objectFit: "cover" }}
+          />
+        </div>
+
+        <section className={styles.listening}>
+          <SongsCard songInfo={songInfo} />
+        </section>
+      </div>
+    </div>
+  );
+}

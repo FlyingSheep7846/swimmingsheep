@@ -25,6 +25,7 @@ self.__BUILD_MANIFEST = {
     "/_error",
     "/about",
     "/api/notion-data",
+    "/api/spotify-track",
     "/personal",
     "/projects"
   ]

@@ -58,7 +58,7 @@ function Header(){
                     <li style={styles.link}><Link className="header-link" href="/">Home</Link></li>
                     <li style={styles.link}><Link className="header-link" href="/projects">Projects</Link></li>
                     <li style={styles.link}><Link className="header-link" href="/about">About Me</Link></li>
-                    {/* <li style={styles.link}><Link className="header-link" href="/personal">Personal</Link></li> */}
+                    <li style={styles.link}><Link className="header-link" href="/personal">Personal</Link></li>
                     <li><button onClick={scrollToBottom} 
                         style={styles.link}
                     >Contact</button></li>

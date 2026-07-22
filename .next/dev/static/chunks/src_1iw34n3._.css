@@ -1,0 +1,177 @@
+/* [project]/src/stylesheets/Personal.module.css [client] (css) */
+.Personal-module__Ryk9VG__profile {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: auto;
+  max-width: 80vw;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  display: flex;
+}
+
+.Personal-module__Ryk9VG__name {
+  text-align: right;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(2vh + 2vw);
+}
+
+.Personal-module__Ryk9VG__imageContainer {
+  flex: 1;
+}
+
+.Personal-module__Ryk9VG__image {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 20vw;
+  height: 20vw;
+}
+
+.Personal-module__Ryk9VG__infoBox {
+  justify-content: center;
+  align-items: top;
+  flex-direction: row;
+  gap: 50px;
+  width: auto;
+  max-width: 60%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.Personal-module__Ryk9VG__infoParagraph {
+  text-align: left;
+  flex: 1;
+  max-width: 50%;
+  font-size: 2.5vh;
+  line-height: 3.5vh;
+}
+
+.Personal-module__Ryk9VG__skillsOverview {
+  flex: 1;
+  max-width: 50%;
+  font-size: 2vh;
+}
+
+/* [project]/src/components/Layout/Layout.module.css [client] (css) */
+.Layout-module__cbqlla__page {
+  background: #222;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.Layout-module__cbqlla__site {
+  background: #eee;
+  flex-direction: column;
+  width: min(100%, 1100px);
+  min-height: calc(100vh - 2rem);
+  margin: 0 auto;
+  display: flex;
+}
+
+.Layout-module__cbqlla__body, .Layout-module__cbqlla__bodyWithSidebar {
+  flex: 1;
+  padding: 1.75rem 2rem 3rem;
+}
+
+.Layout-module__cbqlla__body {
+  display: block;
+}
+
+.Layout-module__cbqlla__bodyWithSidebar {
+  grid-template-columns: 140px minmax(0, 1fr);
+  gap: 2rem;
+  display: grid;
+}
+
+.Layout-module__cbqlla__sidebar, .Layout-module__cbqlla__content {
+  min-width: 0;
+}
+
+@media (max-width: 850px) {
+  .Layout-module__cbqlla__page {
+    padding: 0;
+  }
+
+  .Layout-module__cbqlla__site {
+    min-height: 100vh;
+  }
+
+  .Layout-module__cbqlla__body, .Layout-module__cbqlla__bodyWithSidebar {
+    padding: 1.25rem;
+    display: block;
+  }
+
+  .Layout-module__cbqlla__sidebar {
+    margin-bottom: 2rem;
+  }
+}
+
+/* [project]/src/components/SongsCard/SongsCard.module.css [client] (css) */
+.SongsCard-module__X1WVoq__wrapper {
+  flex-direction: column;
+  gap: 2rem;
+  display: flex;
+}
+
+.SongsCard-module__X1WVoq__heading {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.SongsCard-module__X1WVoq__songGrid {
+  align-items: flex-end;
+  gap: 2rem;
+  display: flex;
+}
+
+.SongsCard-module__X1WVoq__song, .SongsCard-module__X1WVoq__featuredSong {
+  color: inherit;
+  flex-direction: column;
+  flex: 1;
+  text-decoration: none;
+  display: flex;
+}
+
+.SongsCard-module__X1WVoq__albumArt {
+  aspect-ratio: 1;
+  object-fit: cover;
+  width: 100%;
+}
+
+.SongsCard-module__X1WVoq__song .SongsCard-module__X1WVoq__albumArt {
+  margin-bottom: 1rem;
+}
+
+.SongsCard-module__X1WVoq__featuredSong .SongsCard-module__X1WVoq__albumArt {
+  aspect-ratio: 1 / 1.45;
+  margin-bottom: 1.5rem;
+}
+
+.SongsCard-module__X1WVoq__songInfo {
+  text-align: center;
+}
+
+.SongsCard-module__X1WVoq__songInfo h2 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.SongsCard-module__X1WVoq__songInfo p {
+  margin-top: .35rem;
+  font-size: 1.25rem;
+}
+
+.SongsCard-module__X1WVoq__featuredSong .SongsCard-module__X1WVoq__songInfo h2 {
+  font-size: 2.75rem;
+}
+
+.SongsCard-module__X1WVoq__featuredSong .SongsCard-module__X1WVoq__songInfo p {
+  font-size: 1.6rem;
+}
+
+/*# sourceMappingURL=src_1iw34n3._.css.map*/
