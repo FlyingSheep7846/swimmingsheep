@@ -19,14 +19,14 @@ export default function IntroBlock({ songInfo }) {
         </div>
 
         <div className={styles.profileText}>
-          <h1 className={styles.nameTitle}>Sheep’s place</h1>
+          <h1 className={styles.nameTitle}>Kevin Bai</h1>
           <p className={styles.nameSubtitle}>
-            Game Programmer - UI/UX - Artist
+            SwimmingSheep - Game Programmer, UI/UX, Artist
           </p>
         </div>
       </section>
 
-      <div className={styles.rightColumn}>
+    <div className={styles.rightColumn}>
         <section className={styles.introduction}>
           <h2 className={styles.introductionTitle}>
             Welcome to my website

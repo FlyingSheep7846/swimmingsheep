@@ -18,14 +18,19 @@ const nepguinOpening = "/images/projects/nepguin_opening.png";
 const martyHome = "/images/projects/marty_home.jpg";
 const martyGame =  "/images/projects/marty_game.jpg";
 
+const PPE = "/images/projects/PPE.png"
+const PPEVideo = "/videos/PPE.mp4"
+const PDD = "/images/projects/PDD.png"
+const UF = "/images/projects/UF.png"
+
 export const projects = [
 
-
     {
-        name: "SwimmingSheep.com",
+        name: "Pose Pose Execution",
+        video: [PPEVideo],
         category: "App Development",
-        tools: "React, HTML/CSS, Node.js",
-        images: [site, siteAbout],
+        tools: "Unity, C#",
+        images: [PPE, PPE],
         description: "The current wesbite you are visiting! Fully developed with React.js.",
         link: "https://github.com/FlyingSheep22/swimmingsheep",
         linkName: "Github Repository",
@@ -36,7 +41,7 @@ export const projects = [
         name: "Pas de Deux: The Chaos Ballet",
         category: "Game Development",
         tools: "Unity, C#",
-        images: [pdd1, pdd2],
+        images: [PDD, pdd2],
         description: "Co-op Comedy Ballerina Game submitted to the 2025 Ubisoft Game Lab Competition on behalf of McGill University, " +
         "<b>winner of the Jury's Award</b>. Developed across 10 weeks in a team of eight (four programmers, three artists and one designer). Acted as " +
         "the lead UI/UX developer and designer, as well as general gameplay prorammer. Was responsible " + 
@@ -44,6 +49,29 @@ export const projects = [
         link: "https://typh0n4.itch.io/pas-de-deux-the-chaos-ballet",
         linkName: "Itch.io Page",
     },
+
+    {
+        name: "Underfished",
+        category: "Game Development",
+        tools: "Unity, C#",
+        images: [UF, underfished2],
+        description: "Horror survival fishing game developed with a team of four in under 36 hours for McGill CodeJam 15, <b>winner of the Best Game Prize.</b> " +
+        "Acted as lead programmer for the project, responsible for core fishing gameplay, UI, and cutscene sequencing.",
+        link: "https://flyingsheep22.itch.io/pokeshin",
+        linkName: "Itch.io Page",
+    },
+
+    {
+        name: "SwimmingSheep.com",
+        category: "App Development",
+        tools: "React, HTML/CSS, Node.js",
+        images: [site, siteAbout],
+        description: "The current wesbite you are visiting! Fully developed with React.js.",
+        link: "https://github.com/FlyingSheep22/swimmingsheep",
+        linkName: "Github Repository",
+    },
+
+
 
     {
         name: "PokéShin",
@@ -57,16 +85,7 @@ export const projects = [
         linkName: "Itch.io Page",
     },
 
-    {
-        name: "Underfished",
-        category: "Game Development",
-        tools: "Unity, C#",
-        images: [underfished1, underfished2],
-        description: "Horror survival fishing game developed with a team of four in under 36 hours for McGill CodeJam 15, <b>winner of the Best Game Prize.</b> " +
-        "Acted as lead programmer for the project, responsible for core fishing gameplay, UI, and cutscene sequencing.",
-        link: "https://flyingsheep22.itch.io/pokeshin",
-        linkName: "Itch.io Page",
-    },
+    
 
     {
         name: "Shelly's Snack Search",

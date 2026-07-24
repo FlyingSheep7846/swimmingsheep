@@ -1,6 +1,6 @@
 .homeGrid {
-  --left-column: 38%;
-  --column-gap: 2rem;
+  --left-column: 40%;
+  --column-gap: 3rem;
 
   display: grid;
   grid-template-columns:
@@ -41,7 +41,7 @@
     minmax(0, 1fr)
     max-content;
 
-  row-gap: 1rem;
+  row-gap: 1.5rem;
 }
 
 .introduction {
@@ -69,10 +69,13 @@
 
 .nameTitle {
   margin: 0;
+  font-size: 3.5cqw;
+  font-weight: 100;
 }
 
 .nameSubtitle {
   margin: 0.15rem 0 0;
+  font-size: 1.1rem;
 }
 
 .introductionTitle {
@@ -109,7 +112,7 @@
 @media (max-width: 850px) {
   .homeGrid {
     grid-template-columns: 1fr;
-    row-gap: 2rem;
+    row-gap: 3rem;
   }
 
   .rightColumn {

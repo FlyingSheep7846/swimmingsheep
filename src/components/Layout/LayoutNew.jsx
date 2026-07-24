@@ -1,5 +1,6 @@
 import Header from "@/components/Header/NewHeader";
 import Footer from "@/components/Footer/Footer";
+import SideRain from "@/components/SideRain/SideRain";
 import styles from "./Layout.module.css";
 
 export default function Layout({ children, sidebar = null }) {
@@ -8,6 +9,9 @@ export default function Layout({ children, sidebar = null }) {
       <div className={styles.topStrip} />
 
       <Header />
+
+      <SideRain side="left" />
+      <SideRain side="right" />
 
       <div className={styles.site}>
         <div
@@ -27,9 +31,8 @@ export default function Layout({ children, sidebar = null }) {
             {children}
           </main>
         </div>
-
       </div>
-      
+
       <Footer />
     </div>
   );

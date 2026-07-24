@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Project from "../components/Project.jsx"
-import { projects } from "../components/Projects.js";
+import { projects } from "../data/Projects.js";
 import Layout from "../components/Layout.jsx"
 
 

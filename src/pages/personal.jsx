@@ -1,11 +1,10 @@
 import React from "react";
-import styles from "@/stylesheets/Personal.module.css";
-const profileImage = "/images/IMG_3868.jpg";
 
 import Layout from "@/components/Layout/LayoutNew";
-import SongsCard from "@/components/SongsCard/SongsCard";
+import Blocks from "@/components/Layout/Blocks"
 
 import IntroBlock from "@/blocks/IntroBlock";
+import ProjectsBlock from "@/blocks/ProjectsBlock";
 
 import { useState, useEffect } from 'react'
 // import Layout from "@/components/Layout.jsx";
@@ -40,8 +39,10 @@ function Personal(){
 
     return (
         <Layout>
-
-            <IntroBlock songInfo={notionData}/>
+            <Blocks>
+                <IntroBlock songInfo={notionData}/>
+                <ProjectsBlock/>
+            </Blocks>
             {/* <div style={{paddingBottom: '20px'}}>
                  Your existing profile section 
                 <SongsCard songInfo={notionData}/>
